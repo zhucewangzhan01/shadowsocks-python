@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 MAINTAINER isymbo<isymbo@gmail.com>
 
 ENV SERVER_ADDR 0.0.0.0
-ENV SERVER_PORT 8388
+ENV SERVER_PORT 80
 ENV PASSWORD    password
 ENV METHOD      aes-256-gcm
 ENV TIMEOUT     300
